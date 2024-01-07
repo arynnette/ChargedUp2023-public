@@ -8,7 +8,7 @@ import edu.wpi.first.wpilibj2.command.SequentialCommandGroup;
 
 import frc.robot.subsystems.VisionSubsystem;
 import frc.robot.subsystems.Swerve;
-
+//this command sucks idk
 public class AutoAdjustToScore extends SequentialCommandGroup  {
   
   public AutoAdjustToScore(Swerve drive, VisionSubsystem vision) {
