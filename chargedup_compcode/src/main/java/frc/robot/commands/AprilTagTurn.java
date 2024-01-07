@@ -16,6 +16,7 @@ import frc.robot.subsystems.VisionSubsystem;
 public class AprilTagTurn extends CommandBase {
     private boolean targetSeen;
 
+    // create profiled pid controller or something idk
     private final ProfiledPIDController controller =         
     new ProfiledPIDController(.1, 0, 0.002, 
         new TrapezoidProfile.Constraints(
